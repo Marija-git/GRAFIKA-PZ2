@@ -1,0 +1,30 @@
+C:\Users\Marija\Desktop\projekti\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2.csprojAssemblyReference.cache
+C:\Users\Marija\Desktop\projekti\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\MainWindow.g.cs
+C:\Users\Marija\Desktop\projekti\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\App.g.cs
+C:\Users\Marija\Desktop\projekti\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2_MarkupCompile.cache
+C:\Users\Marija\Desktop\projekti\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2_MarkupCompile.lref
+C:\Users\Marija\Desktop\projekti\PROJEKAT\projekatPZ2\projekatPZ2\bin\Debug\projekatPZ2.exe.config
+C:\Users\Marija\Desktop\projekti\PROJEKAT\projekatPZ2\projekatPZ2\bin\Debug\projekatPZ2.exe
+C:\Users\Marija\Desktop\projekti\PROJEKAT\projekatPZ2\projekatPZ2\bin\Debug\projekatPZ2.pdb
+C:\Users\Marija\Desktop\projekti\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\MainWindow.baml
+C:\Users\Marija\Desktop\projekti\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2.g.resources
+C:\Users\Marija\Desktop\projekti\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2.Properties.Resources.resources
+C:\Users\Marija\Desktop\projekti\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2.csproj.GenerateResource.cache
+C:\Users\Marija\Desktop\projekti\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2.csproj.CoreCompileInputs.cache
+C:\Users\Marija\Desktop\projekti\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2.exe
+C:\Users\Marija\Desktop\projekti\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2.pdb
+D:\FTN !!!\semestar 2\grafika\projekti pz2=pz3\NEKI DODATNI\PROJEKAT\projekatPZ2\projekatPZ2\bin\Debug\projekatPZ2.exe.config
+D:\FTN !!!\semestar 2\grafika\projekti pz2=pz3\NEKI DODATNI\PROJEKAT\projekatPZ2\projekatPZ2\bin\Debug\projekatPZ2.exe
+D:\FTN !!!\semestar 2\grafika\projekti pz2=pz3\NEKI DODATNI\PROJEKAT\projekatPZ2\projekatPZ2\bin\Debug\projekatPZ2.pdb
+D:\FTN !!!\semestar 2\grafika\projekti pz2=pz3\NEKI DODATNI\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2.csprojAssemblyReference.cache
+D:\FTN !!!\semestar 2\grafika\projekti pz2=pz3\NEKI DODATNI\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\MainWindow.g.cs
+D:\FTN !!!\semestar 2\grafika\projekti pz2=pz3\NEKI DODATNI\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\App.g.cs
+D:\FTN !!!\semestar 2\grafika\projekti pz2=pz3\NEKI DODATNI\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2_MarkupCompile.cache
+D:\FTN !!!\semestar 2\grafika\projekti pz2=pz3\NEKI DODATNI\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2_MarkupCompile.lref
+D:\FTN !!!\semestar 2\grafika\projekti pz2=pz3\NEKI DODATNI\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\MainWindow.baml
+D:\FTN !!!\semestar 2\grafika\projekti pz2=pz3\NEKI DODATNI\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2.g.resources
+D:\FTN !!!\semestar 2\grafika\projekti pz2=pz3\NEKI DODATNI\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2.Properties.Resources.resources
+D:\FTN !!!\semestar 2\grafika\projekti pz2=pz3\NEKI DODATNI\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2.csproj.GenerateResource.cache
+D:\FTN !!!\semestar 2\grafika\projekti pz2=pz3\NEKI DODATNI\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2.csproj.CoreCompileInputs.cache
+D:\FTN !!!\semestar 2\grafika\projekti pz2=pz3\NEKI DODATNI\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2.exe
+D:\FTN !!!\semestar 2\grafika\projekti pz2=pz3\NEKI DODATNI\PROJEKAT\projekatPZ2\projekatPZ2\obj\Debug\projekatPZ2.pdb

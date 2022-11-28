@@ -1,0 +1,101 @@
+﻿<Window x:Class="projekatPZ2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projekatPZ2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu Background="LightPink" Name="MenuButtons" HorizontalAlignment="Left" Height="350" VerticalAlignment="Top" Width="110">
+            <Button x:Name="btnLoadModel" Click="Model_Click">LoadModel</Button>
+           
+            <CheckBox x:Name="cbSwitchStatus" Background="White"   Height="25"  Width="90"  Click="CheckSwitchStatus">Check_Switch</CheckBox>
+            <CheckBox x:Name="cbSwitchStatus2" Background="White"   Height="45"  Width="99"  Click="UncheckSwitchStatus">UncheckSwitch</CheckBox>
+            
+            <CheckBox x:Name="cbLinesRed" Background="White"   Height="25"  Width="89"  Click="PromeniBojuVodovaNaOsnovuOtpornosti">Otpronost</CheckBox>
+            <CheckBox x:Name="cbLinesBack" Background="White"   Height="25"  Width="89"  Click="VratiBojuVodovaNaOsnovuOtpornosti">Vrati</CheckBox>
+           
+            <Button x:Name="btnSakrij" Click="Button_Sakrij">Sakrij</Button>
+            <Button x:Name="btnPrikazi" Click="Button_Prikazi">Prikazi</Button>
+            
+        <!--4.zadatak-->
+            <Button x:Name="btnSakrijOtpornost01" Click="Button_Sakrij01">Sakrij(0-1)</Button>
+            <Button x:Name="btnPrikaziOtpornost01" Click="Button_Prikazi01">Prikazi(0-1)</Button>
+            <Button x:Name="btnSakrijOtpornost12" Click="Button_Sakrij12">Sakrij(1-2)</Button>
+            <Button x:Name="btnPrikaziOtpornost12" Click="Button_Prikazi12">Prikazi(1-2)</Button>
+            <Button x:Name="btnSakrijOtpornost2" Click="Button_Sakrij2">Sakrij(2+)</Button>
+            <Button x:Name="btnPrikaziOtpornost2" Click="Button_Prikazi2">Prikazi(2+)</Button>
+
+        </Menu>
+
+        <Viewport3D  ClipToBounds="True" Name="display" MouseLeftButtonDown="event_LeviKlikut"
+                                                        MouseMove="event_Pomeraj"
+                                                        MouseLeftButtonUp="event_LeviPusten"
+                                                        MouseWheel="Zoom_iraj"
+                                                        MouseDown="event_NekiKlikut"
+                                                        MouseUp="event_NekiPusten">
+            <Viewport3D.Camera>
+                <!--> position = pozicija kamere , lookDirection = smer u kome kamera gleda <-->
+                <PerspectiveCamera x:Name="perspektivnaKamera" Position="0,0,2" LookDirection="0,0,-1" UpDirection="0,1,-1">
+                    <PerspectiveCamera.Transform>
+
+                        <!--> transformacije: 1)rotacija 2)translacija 3)skaliranje <-->
+                        <Transform3DGroup>
+
+                            <!-->definisemo UGAO pod kojim se mapa rotira
+                                 i OSU oko koje se vrsi rotacija<-->
+                            <RotateTransform3D>
+                                <RotateTransform3D.Rotation>
+                                    <AxisAngleRotation3D x:Name="rotacija" Axis="1 1 0"/>
+                                </RotateTransform3D.Rotation>
+                            </RotateTransform3D>
+
+                            <!--> kod translacije definisemo POMERAJE po svakoj osi <-->
+                            <TranslateTransform3D x:Name="translacija" OffsetX="0" OffsetY="0" OffsetZ="0"/>
+                            <!-- kod skaliranja UVECAVAMO/SMANJUJEMO mapu po odredjenoj osi -->
+                            <ScaleTransform3D x:Name="skaliranje" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+                        </Transform3DGroup>
+
+                    </PerspectiveCamera.Transform>
+                </PerspectiveCamera>
+            </Viewport3D.Camera>
+
+            <Viewport3D.Children>
+
+                <ModelVisual3D>
+                    <ModelVisual3D.Content>
+                        <AmbientLight />
+                    </ModelVisual3D.Content>
+                </ModelVisual3D>
+
+                <ModelVisual3D>
+                    <ModelVisual3D.Content>
+                        <Model3DGroup x:Name="MAPA">
+                            <GeometryModel3D>
+                                <!-- podesavanje materijala(svetlosne komponente)-->
+                                <GeometryModel3D.Material>
+                                    <DiffuseMaterial>
+                                        <DiffuseMaterial.Brush>
+                                            <ImageBrush ImageSource="map.jpg"/>
+                                        </DiffuseMaterial.Brush>
+                                    </DiffuseMaterial>
+                                </GeometryModel3D.Material>
+                                <!-- podesavanje geometrije-->
+                                <!--positions = temena, triagleinidices = trouglovi , tekstura(izgled povrsine)-->
+                                <GeometryModel3D.Geometry>
+                                    <MeshGeometry3D Positions="-0.5,-0.5,0 0.5,-0.5,0 0.5,0.5,0 -0.5,0.5,0"
+                                                    TextureCoordinates="0,1 1,1 1,0 0,0"
+                                                    TriangleIndices="0 1 2  0 2 3"/>
+                                </GeometryModel3D.Geometry>
+
+                            </GeometryModel3D>
+                        </Model3DGroup>
+                    </ModelVisual3D.Content>
+                </ModelVisual3D>
+
+            </Viewport3D.Children>
+        </Viewport3D>
+
+    </Grid>
+</Window>
